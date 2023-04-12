@@ -1,22 +1,34 @@
 package com.example.java_demo_test.Bank;
 
 public class Bank {
-    private int ID;
-    private int account;
+    private String account;
 
-    public int getID() {
-        return ID;
-    }
+    private String pwd;
 
-    public void setID(int ID) {
-        this.ID = ID;
-    }
+    private int amount;
 
-    public int getAccount() {
+    public String getAccount() {
         return account;
     }
 
-    public void setAccount(int account) {
+    public void setAccount(String account) {
         this.account = account;
     }
+
+    public String getPwd() {
+        return pwd;
+    }
+
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
 }
+
