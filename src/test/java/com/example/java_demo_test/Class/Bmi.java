@@ -1,4 +1,4 @@
-package com.example.java_demo_test;
+package com.example.java_demo_test.Class;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
